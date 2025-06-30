@@ -1,0 +1,603 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Apr 24 07:24:20 2025
+# Process ID: 29344
+# Current directory: D:/ee-205_update
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29276 D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.xpr
+# Log file: D:/ee-205_update/vivado.log
+# Journal file: D:/ee-205_update\vivado.jou
+# Running On        :RoBIN
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz
+# CPU Frequency     :2112 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :8403 MB
+# Swap memory       :7247 MB
+# Total Virtual     :15651 MB
+# Available Virtual :7976 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.2/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:19 . Memory (MB): peak = 1498.316 ; gain = 406.461
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_rc4'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_rc4' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_rc4_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_rc4_behav xil_defaultlib.tb_rc4 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_rc4_behav xil_defaultlib.tb_rc4 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3633] port 'in_k' is already connected [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:61]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'in1' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/RC_4_DATAPATH.v:28]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 4 for port 'in2' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/RC_4_DATAPATH.v:43]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_rc4_behav -key {Behavioral:sim_1:Functional:tb_rc4} -tclbatch {tb_rc4.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_rc4.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_rc4_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 1557.031 ; gain = 26.758
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 2000 ns
+run 2000 ns
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 3000 ns
+run 3000 ns
+launch_runs synth_1 -jobs 4
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Thu Apr 24 07:31:51 2025] Launched synth_1...
+Run output will be captured here: D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sim_1\new\tb_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\TOP_Module_final.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\swap_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sim_1\new\tb_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sim_1\new\tb_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sim_1\new\tb_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\TOP_Module_final.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\swap_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\TOP_Module_final.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\TOP_Module_final.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sim_1\new\tb_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\Top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\TOP_Module_final.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\swap_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sim_1\new\tb_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sim_1\new\tb_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sim_1\new\tb_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\Top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\TOP_Module_final.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\swap_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\Top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\Top_module.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sim_1\new\tb_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\Top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\TOP_Module_final.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\swap_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\TOP_Module_final.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\TOP_Module_final.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sim_1\new\tb_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\control_path_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\Top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\TOP_Module_final.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\swap_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sim_1\new\tb_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sim_1\new\tb_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sim_1\new\tb_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\control_path_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\Top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\TOP_Module_final.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\swap_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\Top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\Top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sim_1\new\tb_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\control_path_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\Top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\TOP_Module_final.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\swap_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\swap_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\swap_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sim_1\new\tb_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\control_path_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\Top_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\TOP_Module_final.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\swap_rc4.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\TOP_Module_final.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs\sources_1\new\TOP_Module_final.v:]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_rc4'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_rc4' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_rc4_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Adder_speck.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_speck
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/CLK_DIV_RC_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_div_rc4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/RC_4_DATAPATH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RC4_DATAPATH
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Reg_speck.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_speck
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/SPECK_HASH_DATAPATH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPECK_HASH_DATAPATH
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/TOP_Module_final.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP_Module_final
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_module_datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/adder_rc4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_rc4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/buffer_speck.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module buffer_speck
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/compare_0001.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compare_0001
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/comparing_5bit_00000.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparing_5bit_10101
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/control_path_rc4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path_rc4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/control_path_speck.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path_speck
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/control_path_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_module_controlpath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/copy_rc4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module copy_rc4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/counter_2bit_down.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_2bit_down_speck
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/counter_3bit_down.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_3bit_down_speck
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/counter_3bit_up_rc_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_3bit_up_rc4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/counter_4bit_up.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_4bit_up_speck
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/counter_4bit_up_plus1_rc4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_4bit_up_plus1_rc4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/counter_4bit_up_plus2_rc4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_4bit_up_plus2_rc4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/eqz_comparing_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eqz_comparing_0_speck
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/eqz_comparing_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eqz_comparing_1_speck
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/eqz_comparing_15_rc_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eqz_comparing_15_rc4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/eqz_comparing_7_rc_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eqz_comparing_7_rc4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/eqz_comparing_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eqz_comparing_9_speck
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/karray_read_write_rc4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karray_read_write_rc4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/mod16_rc4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mod16_rc4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/mux2to1_rc4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2to1_rc4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/mux2to1_speck.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2to1_speck
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/reg_rc4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_rc4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/sarray_read_rc4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sarray_read_rc4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/shift_left_speck.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_left_speck
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/shift_right.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_right_speck
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/swap_rc4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module swap_rc4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/up_counter_5bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module up_counter_5bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/write_rc4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_rc4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/write_read_final_speck_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_read_final_speck_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sim_1/new/tb_rc4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_rc4
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_rc4_behav xil_defaultlib.tb_rc4 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_rc4_behav xil_defaultlib.tb_rc4 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'in1' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/RC_4_DATAPATH.v:28]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 4 for port 'in2' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/RC_4_DATAPATH.v:43]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter_4bit_up_speck
+Compiling module xil_defaultlib.compare_0001
+Compiling module xil_defaultlib.counter_2bit_down_speck
+Compiling module xil_defaultlib.counter_3bit_down_speck
+Compiling module xil_defaultlib.mux2to1_speck
+Compiling module xil_defaultlib.reg_speck
+Compiling module xil_defaultlib.shift_right_speck
+Compiling module xil_defaultlib.adder_speck
+Compiling module xil_defaultlib.shift_left_speck
+Compiling module xil_defaultlib.buffer_speck
+Compiling module xil_defaultlib.eqz_comparing_0_speck
+Compiling module xil_defaultlib.eqz_comparing_1_speck
+Compiling module xil_defaultlib.eqz_comparing_9_speck
+Compiling module xil_defaultlib.write_read_final_speck_memory
+Compiling module xil_defaultlib.SPECK_HASH_DATAPATH
+Compiling module xil_defaultlib.control_path_speck
+Compiling module xil_defaultlib.clk_div_rc4
+Compiling module xil_defaultlib.reg_rc4
+Compiling module xil_defaultlib.eqz_comparing_15_rc4
+Compiling module xil_defaultlib.eqz_comparing_7_rc4
+Compiling module xil_defaultlib.comparing_5bit_10101
+Compiling module xil_defaultlib.counter_3bit_up_rc4
+Compiling module xil_defaultlib.counter_4bit_up_plus1_rc4
+Compiling module xil_defaultlib.counter_4bit_up_plus2_rc4
+Compiling module xil_defaultlib.up_counter_5bit
+Compiling module xil_defaultlib.sarray_read_rc4
+Compiling module xil_defaultlib.karray_read_write_rc4
+Compiling module xil_defaultlib.adder_rc4
+Compiling module xil_defaultlib.mod16_rc4
+Compiling module xil_defaultlib.mux2to1_rc4
+Compiling module xil_defaultlib.swap_rc4
+Compiling module xil_defaultlib.copy_rc4
+Compiling module xil_defaultlib.write_rc4
+Compiling module xil_defaultlib.RC4_DATAPATH
+Compiling module xil_defaultlib.control_path_rc4
+Compiling module xil_defaultlib.Top_module_datapath
+Compiling module xil_defaultlib.Top_module_controlpath
+Compiling module xil_defaultlib.TOP_Module_final
+Compiling module xil_defaultlib.tb_rc4
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_rc4_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 2610.016 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_rc4_behav -key {Behavioral:sim_1:Functional:tb_rc4} -tclbatch {tb_rc4.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_rc4.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_rc4_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 2610.016 ; gain = 0.000
+run 3000 ns
+run 3000 ns
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 3000 ns
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Thu Apr 24 07:38:13 2025] Launched synth_1...
+Run output will be captured here: D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Thu Apr 24 07:39:47 2025] Launched impl_1...
+Run output will be captured here: D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a100ticsg324-1L
+INFO: [Device 21-9227] Part: xc7a100ticsg324-1L does not have CEAM library.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 3023.699 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 93 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 3023.699 ; gain = 0.000
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3023.699 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 3023.699 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 3023.699 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3023.699 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.279 . Memory (MB): peak = 3023.699 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.364 . Memory (MB): peak = 3023.699 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.366 . Memory (MB): peak = 3023.699 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3023.699 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  RAM16X1S => RAM32X1S (RAMS32): 4 instances
+  RAM32M => RAM32M (inverted pins: WCLK) (RAMD32(x6), RAMS32(x2)): 1 instance 
+
+open_run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:28 . Memory (MB): peak = 3023.699 ; gain = 413.684
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100ticsg324-1L
+Top: TOP_Module_final
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11396
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 3102.988 ; gain = 67.117
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'reset8_s', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:21]
+INFO: [Synth 8-11241] undeclared symbol 'reset4_s', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:22]
+INFO: [Synth 8-11241] undeclared symbol 'reset_reg_s', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:23]
+INFO: [Synth 8-11241] undeclared symbol 'reset_counter_s', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:24]
+INFO: [Synth 8-11241] undeclared symbol 'Load', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:29]
+INFO: [Synth 8-11241] undeclared symbol 'ld1', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:31]
+INFO: [Synth 8-11241] undeclared symbol 'eqz4_9', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:32]
+INFO: [Synth 8-11241] undeclared symbol 'eqz2_0', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:33]
+INFO: [Synth 8-11241] undeclared symbol 'eqz4_1', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:34]
+INFO: [Synth 8-11241] undeclared symbol 'rd', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:35]
+INFO: [Synth 8-11241] undeclared symbol 'wr', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:36]
+INFO: [Synth 8-11241] undeclared symbol 'en', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:37]
+INFO: [Synth 8-11241] undeclared symbol 'clk_rst', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:61]
+INFO: [Synth 8-11241] undeclared symbol 'en_s', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:61]
+INFO: [Synth 8-11241] undeclared symbol 'enc', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:61]
+INFO: [Synth 8-11241] undeclared symbol 'reset4_r', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:61]
+INFO: [Synth 8-11241] undeclared symbol 'reset_reg_r', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:61]
+INFO: [Synth 8-11241] undeclared symbol 'reset_counter_final_r', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:61]
+INFO: [Synth 8-11241] undeclared symbol 'reset3_r', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:61]
+INFO: [Synth 8-11241] undeclared symbol 'en_k', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:61]
+INFO: [Synth 8-11241] undeclared symbol 'reset1_r', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:61]
+INFO: [Synth 8-11241] undeclared symbol 'reset2_r', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:61]
+INFO: [Synth 8-11241] undeclared symbol 'eqz4', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:61]
+INFO: [Synth 8-11241] undeclared symbol 'eqz3', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:61]
+INFO: [Synth 8-11241] undeclared symbol 'eqz5', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:61]
+INFO: [Synth 8-11241] undeclared symbol 'rd_1', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:61]
+INFO: [Synth 8-11241] undeclared symbol 'wr_1', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:61]
+INFO: [Synth 8-11241] undeclared symbol 'start_speck', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/TOP_Module_final.v:12]
+INFO: [Synth 8-11241] undeclared symbol 'start_rc4', assumed default net type 'wire' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/TOP_Module_final.v:12]
+INFO: [Synth 8-6157] synthesizing module 'TOP_Module_final' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/TOP_Module_final.v:4]
+INFO: [Synth 8-6157] synthesizing module 'Top_module_datapath' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:4]
+INFO: [Synth 8-6157] synthesizing module 'counter_4bit_up_speck' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/counter_4bit_up.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'counter_4bit_up_speck' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/counter_4bit_up.v:4]
+INFO: [Synth 8-6157] synthesizing module 'compare_0001' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/compare_0001.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'compare_0001' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/compare_0001.v:3]
+INFO: [Synth 8-6157] synthesizing module 'SPECK_HASH_DATAPATH' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/SPECK_HASH_DATAPATH.v:3]
+INFO: [Synth 8-6157] synthesizing module 'counter_2bit_down_speck' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/counter_2bit_down.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'counter_2bit_down_speck' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/counter_2bit_down.v:3]
+INFO: [Synth 8-6157] synthesizing module 'counter_3bit_down_speck' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/counter_3bit_down.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'counter_3bit_down_speck' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/counter_3bit_down.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mux2to1_speck' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/mux2to1_speck.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'mux2to1_speck' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/mux2to1_speck.v:4]
+INFO: [Synth 8-6157] synthesizing module 'reg_speck' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Reg_speck.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'reg_speck' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Reg_speck.v:3]
+INFO: [Synth 8-6157] synthesizing module 'shift_right_speck' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/shift_right.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'shift_right_speck' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/shift_right.v:4]
+INFO: [Synth 8-6157] synthesizing module 'adder_speck' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Adder_speck.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'adder_speck' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Adder_speck.v:4]
+INFO: [Synth 8-6157] synthesizing module 'shift_left_speck' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/shift_left_speck.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'shift_left_speck' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/shift_left_speck.v:4]
+INFO: [Synth 8-6157] synthesizing module 'buffer_speck' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/buffer_speck.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'buffer_speck' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/buffer_speck.v:3]
+INFO: [Synth 8-6157] synthesizing module 'eqz_comparing_0_speck' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/eqz_comparing_0.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'eqz_comparing_0_speck' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/eqz_comparing_0.v:3]
+INFO: [Synth 8-6157] synthesizing module 'eqz_comparing_1_speck' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/eqz_comparing_1.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'eqz_comparing_1_speck' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/eqz_comparing_1.v:3]
+INFO: [Synth 8-6157] synthesizing module 'eqz_comparing_9_speck' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/eqz_comparing_9.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'eqz_comparing_9_speck' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/eqz_comparing_9.v:3]
+INFO: [Synth 8-6157] synthesizing module 'write_read_final_speck_memory' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/write_read_final_speck_memory.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'write_read_final_speck_memory' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/write_read_final_speck_memory.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'SPECK_HASH_DATAPATH' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/SPECK_HASH_DATAPATH.v:3]
+INFO: [Synth 8-6157] synthesizing module 'control_path_speck' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/control_path_speck.v:3]
+INFO: [Synth 8-226] default block is never used [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/control_path_speck.v:12]
+INFO: [Synth 8-226] default block is never used [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/control_path_speck.v:26]
+INFO: [Synth 8-6155] done synthesizing module 'control_path_speck' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/control_path_speck.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clk_div_rc4' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/CLK_DIV_RC_4.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div_rc4' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/CLK_DIV_RC_4.v:5]
+INFO: [Synth 8-6157] synthesizing module 'reg_rc4' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/reg_rc4.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'reg_rc4' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/reg_rc4.v:4]
+INFO: [Synth 8-6157] synthesizing module 'RC4_DATAPATH' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/RC_4_DATAPATH.v:2]
+WARNING: [Synth 8-7071] port 'out2' of module 'clk_div_rc4' is unconnected for instance 'cd' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/RC_4_DATAPATH.v:14]
+WARNING: [Synth 8-7023] instance 'cd' of module 'clk_div_rc4' has 4 connections declared, but only 3 given [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/RC_4_DATAPATH.v:14]
+INFO: [Synth 8-6157] synthesizing module 'eqz_comparing_15_rc4' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/eqz_comparing_15_rc_4.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'eqz_comparing_15_rc4' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/eqz_comparing_15_rc_4.v:2]
+INFO: [Synth 8-6157] synthesizing module 'eqz_comparing_7_rc4' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/eqz_comparing_7_rc_4.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'eqz_comparing_7_rc4' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/eqz_comparing_7_rc_4.v:3]
+INFO: [Synth 8-6157] synthesizing module 'comparing_5bit_10101' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/comparing_5bit_00000.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'comparing_5bit_10101' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/comparing_5bit_00000.v:2]
+INFO: [Synth 8-6157] synthesizing module 'counter_3bit_up_rc4' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/counter_3bit_up_rc_4.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'counter_3bit_up_rc4' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/counter_3bit_up_rc_4.v:4]
+INFO: [Synth 8-6157] synthesizing module 'counter_4bit_up_plus1_rc4' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/counter_4bit_up_plus1_rc4.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'counter_4bit_up_plus1_rc4' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/counter_4bit_up_plus1_rc4.v:4]
+INFO: [Synth 8-6157] synthesizing module 'counter_4bit_up_plus2_rc4' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/counter_4bit_up_plus2_rc4.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'counter_4bit_up_plus2_rc4' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/counter_4bit_up_plus2_rc4.v:5]
+INFO: [Synth 8-6157] synthesizing module 'up_counter_5bit' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/up_counter_5bit.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'up_counter_5bit' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/up_counter_5bit.v:4]
+INFO: [Synth 8-6157] synthesizing module 'sarray_read_rc4' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/sarray_read_rc4.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'sarray_read_rc4' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/sarray_read_rc4.v:4]
+INFO: [Synth 8-6157] synthesizing module 'karray_read_write_rc4' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/karray_read_write_rc4.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'karray_read_write_rc4' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/karray_read_write_rc4.v:4]
+INFO: [Synth 8-6157] synthesizing module 'adder_rc4' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/adder_rc4.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'adder_rc4' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/adder_rc4.v:4]
+WARNING: [Synth 8-689] width (5) of port connection 'in1' does not match port width (4) of module 'adder_rc4' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/RC_4_DATAPATH.v:28]
+INFO: [Synth 8-6157] synthesizing module 'mod16_rc4' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/mod16_rc4.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'mod16_rc4' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/mod16_rc4.v:4]
+INFO: [Synth 8-6157] synthesizing module 'swap_rc4' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/swap_rc4.v:4]
+INFO: [Synth 8-6157] synthesizing module 'mux2to1_rc4' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/mux2to1_rc4.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'mux2to1_rc4' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/mux2to1_rc4.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'swap_rc4' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/swap_rc4.v:4]
+INFO: [Synth 8-6157] synthesizing module 'copy_rc4' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/copy_rc4.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'copy_rc4' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/copy_rc4.v:4]
+INFO: [Synth 8-6157] synthesizing module 'write_rc4' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/write_rc4.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'write_rc4' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/write_rc4.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'RC4_DATAPATH' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/RC_4_DATAPATH.v:2]
+INFO: [Synth 8-6157] synthesizing module 'control_path_rc4' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/control_path_rc4.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'control_path_rc4' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/control_path_rc4.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'Top_module_datapath' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/Top_module.v:4]
+INFO: [Synth 8-6157] synthesizing module 'Top_module_controlpath' [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/control_path_top.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'Top_module_controlpath' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/control_path_top.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'TOP_Module_final' (0#1) [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/TOP_Module_final.v:4]
+WARNING: [Synth 8-4767] Trying to implement RAM 'S_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "S_reg" dissolved into registers
+WARNING: [Synth 8-3848] Net addo1 in module/entity sarray_read_rc4 does not have driver. [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/sarray_read_rc4.v:4]
+WARNING: [Synth 8-3848] Net addo1 in module/entity karray_read_write_rc4 does not have driver. [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/karray_read_write_rc4.v:4]
+WARNING: [Synth 8-4767] Trying to implement RAM 'S_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "S_reg" dissolved into registers
+WARNING: [Synth 8-3848] Net addo1 in module/entity copy_rc4 does not have driver. [D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.srcs/sources_1/new/copy_rc4.v:4]
+WARNING: [Synth 8-7129] Port in[4] in module mod16_rc4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module buffer_speck is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module buffer_speck is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 3219.770 ; gain = 183.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 3237.684 ; gain = 201.812
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 3237.684 ; gain = 201.812
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 3237.684 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3350.516 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 3361.246 ; gain = 325.375
+112 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 3361.246 ; gain = 325.375
+current_design impl_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 24 07:48:32 2025...

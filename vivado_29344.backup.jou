@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Apr 24 07:24:20 2025
+# Process ID: 29344
+# Current directory: D:/ee-205_update
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29276 D:\ee-205_update\DESIGN_LAB_NOW_FINAL_HOPE_SO.xpr
+# Log file: D:/ee-205_update/vivado.log
+# Journal file: D:/ee-205_update\vivado.jou
+# Running On        :RoBIN
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz
+# CPU Frequency     :2112 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :8403 MB
+# Swap memory       :7247 MB
+# Total Virtual     :15651 MB
+# Available Virtual :7976 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/ee-205_update/DESIGN_LAB_NOW_FINAL_HOPE_SO.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_rc4.tcl
+restart
+run 2000 ns
+run 2000 ns
+restart
+run 3000 ns
+run 3000 ns
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+source tb_rc4.tcl
+run 3000 ns
+run 3000 ns
+restart
+run 3000 ns
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+current_design impl_1
+close_sim
